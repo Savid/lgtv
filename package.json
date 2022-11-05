@@ -1,0 +1,23 @@
+{
+  "name": "lgtv",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "auth": "node auth.js",
+    "on": "node on.js",
+    "off": "node off.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "macfromip": "1.1.1",
+    "wake_on_lan": "1.0.0",
+    "ws": "8.10.0"
+  },
+  "volta": {
+    "node": "18.12.1",
+    "npm": "8.19.3"
+  }
+}
