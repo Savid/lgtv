@@ -1,0 +1,15 @@
+# ~/.config/systemd/user/lgtv.service
+# systemd example user server to trigger script
+[Unit]
+Description=LGTV
+
+[Service]
+Type=simple
+WorkingDirectory=%h/lgtv
+ExecStart=%h/lgtv/gnome.sh
+Environment="IP=192.168.1.50"
+Environment="MAC=80:5c:64:2b:3a:b5"
+Environment="CLIENT_KEY=67c467bd233806c95dcf2967791a556a"
+
+[Install]
+WantedBy=default.target

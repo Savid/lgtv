@@ -2,7 +2,7 @@
 
 Inspired by [LGWebOSRemote](https://github.com/klattimer/LGWebOSRemote).
 
-Simple NodeJS scripts to turn a LG TV on and off. Useful when using a LG TV as a monitor and want to control turn on/off.
+Simple NodeJS scripts to turn a LG TV on and off. Useful when using a LG TV as a monitor.
 
 Requirements;
 
@@ -10,7 +10,7 @@ Requirements;
 - NPM 8+
 - LG TV with firmware major version 4, product name "webOSTV 2.0"
 - TV must be on same lan segment
-- Must turn on "TV On With Mobile" setting on TV side to allow remote websocket connects
+- Must turn on "TV On With Mobile" setting on TV side to allow remote websocket connections
 - Must know the network IP of your TV (this script does not scan)
 
 ## Getting started
