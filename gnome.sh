@@ -1,5 +1,7 @@
 #!/bin/bash
 
+MAC=${MAC} npm run on
+
 # example script to watch for gnome lock/unlock events
 dbus-monitor --session "type='signal',interface='org.gnome.ScreenSaver'" |
   while read x; do
