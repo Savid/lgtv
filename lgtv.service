@@ -2,8 +2,8 @@
 # systemd example user server to trigger script
 [Unit]
 Description=LGTV
-# After=network-online.target
-# Wants=network-online.target systemd-networkd-wait-online.service
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
 
 [Service]
 Type=simple

@@ -15,4 +15,10 @@ const wake = (mac) => {
   });
 };
 
-await wake(mac);
+try {
+  await wake(mac);
+} catch (err) {
+  console.error(err);
+  process.exit(1);
+}
+process.exit(0);

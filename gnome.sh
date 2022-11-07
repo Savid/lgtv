@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 MAC=${MAC} npm run on
 
 # example script to watch for gnome lock/unlock events
